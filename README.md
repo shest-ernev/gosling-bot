@@ -63,29 +63,4 @@ yarn dev
 <br>
 <br>
 
-<style>
-  .smile{
-    font-size: 18px;
-    animation: blik 1s infinite linear;
-  }
-  
-  @keyframes blik{
-    0%{
-      color: black;
-    }
-    25%{
-      color: red;
-    }
-    50%{
-      color: green;
-    }
-    75%{
-      color: yellow;
-    }
-    100%{
-      color: purple;
-    }
-  }
-</style>
-
-<p class='smile'> :) </p>
+:)
