@@ -18,7 +18,7 @@ const popyskanie = (username) => {
       `Кто напишет в чат тот гей`
    ]
 
-   return badArr.at(rand(0, badArr.length))
+   return badArr.at(rand(0, badArr.length - 1))
 }
 
 module.exports = popyskanie
